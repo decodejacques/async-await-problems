@@ -1,3 +1,3 @@
-# maps-exercises
+# async-await-exercises
 
-Good luck :)
+Run npm install to install the necessary packages.
