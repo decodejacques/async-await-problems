@@ -1,0 +1,15 @@
+// What is the output of this program?
+// Don't run it, try to figure it out by yourself first without the help of a computer.
+// Once it's solved, check your answer by running the code in NodeJS
+// Keep in mind, you will need to install the timeout-as-promise npm package
+
+var delay = require('timeout-as-promise');
+
+async function f() {
+    await delay(500);
+    console.log("HEY");
+    await delay(1000);
+    console.log("THERE");
+}
+
+f();
