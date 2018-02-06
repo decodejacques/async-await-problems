@@ -1,0 +1,11 @@
+// Remove async/await from the following code
+
+var delay = require('timeout-as-promise');
+
+async function f() {
+   console.log("HEY");
+   await delay(500);
+   console.log("THERE");
+}
+
+f()
