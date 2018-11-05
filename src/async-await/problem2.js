@@ -12,8 +12,8 @@ async function g() {
 }
 
 async function h() {
-    var x = await f().then(x => /* fill in this part */);
-    var y = await g().then(y => /* fill in this part */);
+    var x = await f().then(function (x) { /* fill in this part */ });
+    var y = await g().then(function (y) { /* fill in this part */ });
     return x + y;
 }
 
