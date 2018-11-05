@@ -1,5 +1,4 @@
-// Remove async/await from the following code
-
+// Rewrite this program without async await
 var delay = require('timeout-as-promise');
 
 async function f() {
